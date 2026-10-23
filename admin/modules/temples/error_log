@@ -1,0 +1,24 @@
+[06-Oct-2026 17:19:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function th() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 50
+[06-Oct-2026 17:31:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function th() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 50
+[06-Oct-2026 17:34:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function th() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 50
+[06-Oct-2026 17:38:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function th() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 50
+[07-Oct-2026 10:41:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function th() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 50
+[07-Oct-2026 10:42:55 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function active_dot() in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php:142
+Stack trace:
+#0 {main}
+  thrown in /home/xinkpayr/divyaaastha.xinkpayroll.co.in/admin/modules/temples/index.php on line 142

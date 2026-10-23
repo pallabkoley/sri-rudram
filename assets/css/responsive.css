@@ -1,0 +1,514 @@
+/* ============================================================
+   Divya Aastha — Responsive Overrides
+   Desktop (≥1081px) design 100% unchanged.
+   All rules are inside media queries.
+   ============================================================ */
+
+/* ============================================================
+   0. GLOBAL SAFETY — Prevent horizontal overflow
+   ============================================================ */
+@media (max-width: 1080px){
+  html, body{
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  img, video, iframe, svg{
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  body, p, h1, h2, h3, h4, h5, h6, a, span, li, td, th{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .hero-mandala,
+  .page-hero-mandala{
+    max-width: 100vw !important;
+  }
+}
+
+/* ============================================================
+   1. HEADER RESPONSIVE
+   ============================================================ */
+@media (max-width: 940px){
+  header.site-header nav.main-nav{ display: none !important; }
+  header.site-header a.header-cta{ display: none !important; }
+  header.site-header button.hamburger{ display: grid !important; }
+  header.site-header .header-inner{
+    height: 64px !important;
+    gap: 10px !important;
+    flex-wrap: nowrap !important;
+  }
+  header.site-header .brand-logo{
+    height: 46px !important;
+    max-width: 155px !important;
+    width: auto !important;
+    transform: scale(1.04) !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 40px !important;
+    max-width: 140px !important;
+  }
+  header.site-header .header-actions{
+    margin-left: auto !important;
+    gap: 6px !important;
+    flex-wrap: nowrap !important;
+  }
+  header.site-header .icon-btn{
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 10px !important;
+  }
+  header.site-header .icon-btn svg{
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+@media (max-width: 640px){
+  header.site-header .header-inner{
+    height: 58px !important;
+    gap: 8px !important;
+    padding: 0 16px !important;
+  }
+  header.site-header .brand-logo{
+    height: 40px !important;
+    max-width: 130px !important;
+    transform: scale(1.03) !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 36px !important;
+    max-width: 118px !important;
+  }
+  header.site-header .header-actions{ gap: 5px !important; }
+  header.site-header .icon-btn{
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 9px !important;
+  }
+  header.site-header .icon-btn svg{
+    width: 15px !important;
+    height: 15px !important;
+  }
+  header.site-header .badge{
+    min-width: 16px !important;
+    height: 16px !important;
+    font-size: 9px !important;
+    top: -5px !important;
+    right: -5px !important;
+    border-width: 2px !important;
+  }
+}
+@media (max-width: 480px){
+  header.site-header .header-inner{
+    height: 56px !important;
+    gap: 6px !important;
+    padding: 0 14px !important;
+  }
+  header.site-header .brand-logo{
+    height: 36px !important;
+    max-width: 118px !important;
+    transform: scale(1.02) !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 32px !important;
+    max-width: 105px !important;
+  }
+  header.site-header .header-actions{ gap: 4px !important; }
+  header.site-header .icon-btn{
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 8px !important;
+  }
+  header.site-header .icon-btn svg{
+    width: 14px !important;
+    height: 14px !important;
+  }
+  header.site-header .header-actions > a[href*="wishlist"]{
+    display: none !important;
+  }
+}
+@media (max-width: 390px){
+  header.site-header .header-inner{
+    height: 54px !important;
+    gap: 5px !important;
+    padding: 0 12px !important;
+  }
+  header.site-header .brand-logo{
+    height: 34px !important;
+    max-width: 108px !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 30px !important;
+    max-width: 95px !important;
+  }
+  header.site-header .icon-btn{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 8px !important;
+  }
+  header.site-header .icon-btn svg{
+    width: 13px !important;
+    height: 13px !important;
+  }
+}
+@media (max-width: 360px){
+  header.site-header .header-inner{
+    height: 52px !important;
+    gap: 4px !important;
+    padding: 0 10px !important;
+  }
+  header.site-header .brand-logo{
+    height: 32px !important;
+    max-width: 100px !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 28px !important;
+    max-width: 90px !important;
+  }
+  header.site-header .icon-btn{
+    width: 28px !important;
+    height: 28px !important;
+  }
+  header.site-header .icon-btn svg{
+    width: 12px !important;
+    height: 12px !important;
+  }
+  header.site-header .badge{
+    min-width: 14px !important;
+    height: 14px !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 320px){
+  header.site-header .brand-logo{
+    height: 30px !important;
+    max-width: 92px !important;
+  }
+  header.site-header.scrolled .brand-logo{
+    height: 26px !important;
+    max-width: 82px !important;
+  }
+  header.site-header .icon-btn{
+    width: 26px !important;
+    height: 26px !important;
+  }
+  header.site-header .header-actions{ gap: 3px !important; }
+  header.site-header .account-wrap{
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   2. TABLET LAYOUT — max-width: 1080px
+   ============================================================ */
+@media (max-width: 1080px){
+  .container{ padding: 0 22px !important; }
+  .hero-grid{ grid-template-columns: 1fr !important; gap: 48px !important; }
+  .hero-collage{ max-width: 520px !important; margin: 0 auto !important; }
+  .steps{ grid-template-columns: repeat(2, 1fr) !important; gap: 44px 0 !important; }
+  .steps::before{ display: none !important; }
+  .newsletter{ grid-template-columns: 1fr !important; gap: 32px !important; padding: 46px 36px !important; }
+  .trend-grid{ grid-template-columns: 1fr !important; grid-template-rows: auto !important; }
+  .trend-feature{ grid-column: 1 !important; grid-row: auto !important; min-height: 400px !important; }
+  .temple-card{ flex: 0 0 calc((100% - 40px) / 3) !important; }
+  .shop-card{ flex: 0 0 calc((100% - 40px) / 3) !important; }
+  .puja-grid{ grid-template-columns: repeat(3, 1fr) !important; }
+  .dark-temple-grid{ grid-template-columns: repeat(3, 1fr) !important; }
+}
+
+/* ============================================================
+   3. TABLET PORTRAIT — max-width: 940px
+   ============================================================ */
+@media (max-width: 940px){
+  .gyan-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+  .article-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+  .fest-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+  .testi-grid{ grid-template-columns: 1fr !important; }
+  .yatra-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+  .footer-grid{ grid-template-columns: 1fr 1fr !important; }
+  .temple-card{ flex: 0 0 calc((100% - 20px) / 2) !important; }
+  .shop-card{ flex: 0 0 calc((100% - 20px) / 2) !important; }
+  .carousel-head{ flex-direction: column !important; align-items: flex-start !important; gap: 20px !important; }
+  .puja-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+  .dark-temple-grid{ grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* ============================================================
+   4. MOBILE LANDSCAPE — max-width: 768px
+   ============================================================ */
+@media (max-width: 768px){
+  .announce-right{ display: none !important; }
+  .announce .container{ justify-content: center !important; }
+  .announce{ font-size: 11.5px !important; }
+  .announce .container{ height: 36px !important; }
+  .section{ padding: 64px 0 !important; }
+  .section.tight{ padding: 48px 0 !important; }
+  .hero{ padding: 48px 0 64px !important; }
+  .hero-collage{
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 180px 140px !important;
+    max-width: 100% !important;
+  }
+  .hc-main{ grid-column: 1 !important; grid-row: 1 / 3 !important; }
+  .hc-circle{ width: 108px !important; height: 108px !important; margin-left: -22px !important; }
+  .hc-a{ grid-column: 2 !important; grid-row: 2 !important; }
+  .hc-b{ display: none !important; }
+  .hc-chip{ left: 10px !important; bottom: 50px !important; padding: 9px 12px !important; }
+  .hc-chip .fc-ico{ width: 30px !important; height: 30px !important; font-size: 13px !important; }
+  .hc-chip b{ font-size: 11.5px !important; }
+  .hc-chip span{ font-size: 10px !important; }
+  .hc-chip-2{ font-size: 10.5px !important; padding: 7px 13px !important; }
+  .newsletter{ padding: 40px 24px !important; border-radius: var(--r-lg) !important; }
+  .nl-row{ flex-direction: column !important; border-radius: var(--r-sm) !important; padding: 12px !important; }
+  .nl-row .btn{ width: 100% !important; }
+  .footer-grid{ grid-template-columns: 1fr !important; gap: 32px !important; }
+  .footer-bottom{ justify-content: center !important; text-align: center !important; }
+  .steps{ grid-template-columns: 1fr !important; gap: 36px !important; }
+  .step{ padding: 0 !important; }
+  .temple-card{ flex: 0 0 86% !important; }
+  .shop-card{ flex: 0 0 86% !important; }
+  .section-head{ margin-bottom: 40px !important; }
+  .carousel-head{ margin-bottom: 32px !important; }
+  .page-hero{ padding: 48px 0 52px !important; }
+  .detail-grid{ grid-template-columns: 1fr !important; gap: 32px !important; padding: 40px 0 0 !important; }
+  .cart-page-grid{ grid-template-columns: 1fr !important; }
+  .cart-row{ grid-template-columns: 80px 1fr auto !important; gap: 14px !important; padding: 16px !important; }
+  .cart-row img{ width: 80px !important; height: 80px !important; }
+  .cart-summary{ position: static !important; }
+  .account-grid{ grid-template-columns: 1fr !important; }
+  .account-nav{
+    position: static !important;
+    display: flex !important; flex-wrap: wrap !important; gap: 6px !important; padding: 10px !important;
+  }
+  .account-nav a{ flex: 1 1 auto !important; padding: 10px 14px !important; font-size: 13px !important; }
+  .account-main{ padding: 24px 20px !important; }
+  .auth-wrap{ padding: 60px 20px !important; }
+  .auth-card{ padding: 32px 24px !important; }
+  .faq-q{ font-size: 15.5px !important; padding: 20px 4px !important; gap: 14px !important; }
+  .faq-a p{ padding: 0 4px 22px !important; font-size: 13.2px !important; }
+  table{
+    display: block !important; width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    white-space: nowrap !important;
+  }
+  table thead, table tbody{ display: table !important; width: 100% !important; min-width: 100% !important; }
+  table th, table td{ padding: 10px 12px !important; font-size: 13px !important; }
+}
+
+/* ============================================================
+   5. MOBILE PORTRAIT — max-width: 640px
+   ============================================================ */
+@media (max-width: 640px){
+  .container{ padding: 0 18px !important; }
+  .announce-left{ font-size: 11px !important; text-align: center !important; }
+  .hero{ padding: 40px 0 56px !important; }
+  .hero h1{ font-size: clamp(1.75rem, 8vw, 2.2rem) !important; line-height: 1.12 !important; }
+  .hero-lead{ font-size: 14.5px !important; line-height: 1.72 !important; }
+  .hero-trust{ gap: 8px !important; }
+  .trust-chip{ padding: 7px 13px !important; font-size: 11.5px !important; }
+  .hero-cta{ flex-direction: column !important; align-items: stretch !important; }
+  .hero-cta .btn{ width: 100% !important; }
+  .hero-collage{ grid-template-columns: 1fr !important; grid-template-rows: 220px !important; padding-bottom: 0 !important; }
+  .hc-main{ grid-column: 1 !important; grid-row: 1 !important; }
+  .hc-circle, .hc-a, .hc-b{ display: none !important; }
+  .hc-chip{ left: 10px !important; bottom: 10px !important; }
+  .hc-chip-2{ top: 10px !important; right: 10px !important; font-size: 10px !important; }
+  .section{ padding: 52px 0 !important; }
+  .section-head h2{ font-size: 1.5rem !important; }
+  .section-head p{ font-size: 14px !important; }
+  .gyan-grid{ grid-template-columns: 1fr !important; }
+  .article-grid{ grid-template-columns: 1fr !important; gap: 14px !important; }
+  .fest-grid{ grid-template-columns: 1fr !important; }
+  .yatra-grid{ grid-template-columns: 1fr !important; }
+  .puja-grid{ grid-template-columns: 1fr !important; gap: 14px !important; }
+  .dark-temple-grid{ grid-template-columns: 1fr !important; gap: 14px !important; }
+  .testi-card{ padding: 26px 22px !important; }
+  .testi-card p{ font-size: 13.2px !important; }
+  .temple-card{ flex: 0 0 90% !important; }
+  .shop-card{ flex: 0 0 90% !important; }
+  .step-num{ width: 60px !important; height: 60px !important; font-size: 18px !important; margin-bottom: 18px !important; }
+  .step h3{ font-size: 15px !important; }
+  .step p{ font-size: 12.5px !important; }
+  .featured-on{ padding: 32px 0 !important; }
+  .fo-item{ padding: 9px 18px !important; font-size: 13px !important; }
+  .newsletter{ padding: 34px 22px !important; border-radius: var(--r) !important; }
+  .newsletter h2{ font-size: 1.4rem !important; }
+  .newsletter p{ font-size: 13.5px !important; }
+  .footer-grid{ padding-bottom: 40px !important; gap: 28px !important; }
+  .footer-col h4{ margin-bottom: 16px !important; }
+  .footer-col ul li{ margin-bottom: 10px !important; }
+  .float-stack{ right: 16px !important; bottom: 16px !important; gap: 10px !important; }
+  .fab{ width: 46px !important; height: 46px !important; }
+  .fab svg{ width: 19px !important; height: 19px !important; }
+  .detail-media{ aspect-ratio: 1 / 1 !important; }
+  .detail-info h1{ font-size: 1.4rem !important; }
+  .detail-price .now{ font-size: 24px !important; }
+  .detail-actions{ gap: 10px !important; }
+  .detail-actions .btn{ padding: 13px 24px !important; font-size: 13px !important; flex: 1 !important; }
+  .qty-selector button{ width: 38px !important; height: 46px !important; }
+  .qty-selector input{ width: 42px !important; }
+  .detail-tabs{ overflow-x: auto !important; flex-wrap: nowrap !important; -webkit-overflow-scrolling: touch !important; }
+  .detail-tabs::-webkit-scrollbar{ display: none !important; }
+  .detail-tab{ padding: 12px 16px !important; font-size: 12.5px !important; white-space: nowrap !important; }
+  .toast-wrap{ bottom: 20px !important; width: calc(100% - 32px) !important; }
+  .cart-row{ grid-template-columns: 70px 1fr !important; gap: 12px !important; }
+  .cart-row img{ width: 70px !important; height: 70px !important; }
+  .cart-empty{ padding: 60px 24px !important; }
+  .gy-empty{ padding: 60px 20px !important; }
+  .bhet-empty{ padding: 60px 20px !important; }
+  .mobile-nav .mn-panel{ width: min(320px, 90vw) !important; }
+  .mn-head{ padding: 18px 20px !important; }
+  .mn-links{ padding: 16px 14px !important; }
+  .mn-links a{ padding: 13px 14px !important; font-size: 14.5px !important; }
+  .mn-foot{ padding: 18px 20px 28px !important; }
+  .mn-close{ width: 34px !important; height: 34px !important; }
+  .search-overlay{ padding: 60px 16px 40px !important; }
+  .search-field{ padding: 18px !important; gap: 10px !important; }
+  .search-field svg{ width: 17px !important; height: 17px !important; }
+  .ss-item{ padding: 10px !important; gap: 12px !important; }
+  .ss-ico{ width: 34px !important; height: 34px !important; }
+  .ss-tag{ display: none !important; }
+  .cart-drawer{ width: 100vw !important; }
+  .cd-head{ padding: 18px 20px !important; }
+  .cd-body{ padding: 16px !important; }
+  .cd-foot{ padding: 16px 20px 20px !important; }
+  .cd-actions{ grid-template-columns: 1fr !important; }
+  .account-menu{ width: 220px !important; right: -8px !important; }
+  .account-menu a{ padding: 9px 12px !important; font-size: 13px !important; }
+  .gy-filters, .bhet-filters, .filter-bar{ gap: 6px !important; padding-bottom: 16px !important; margin-bottom: 20px !important; }
+  .gy-chip, .bhet-chip, .filter-chip{ padding: 7px 13px !important; font-size: 11.5px !important; }
+  .gy-grid, .bhet-grid, .puja-grid, .dark-temple-grid, .article-grid{ gap: 14px !important; }
+  .gy-head, .bhet-head{ margin-bottom: 26px !important; }
+  .gy-head h2, .bhet-head h2{ font-size: 1.25rem !important; }
+  .gy-head p, .bhet-head p{ font-size: 13.5px !important; }
+  .page-hero{ padding: 40px 0 44px !important; }
+  .page-hero h1{ font-size: 1.65rem !important; letter-spacing: -.4px !important; }
+  .page-hero p{ font-size: 14px !important; line-height: 1.68 !important; }
+  .breadcrumb{ font-size: 11.5px !important; margin-bottom: 14px !important; }
+  .gy-hero{ padding: 52px 0 56px !important; }
+  .gy-hero h1{ font-size: clamp(1.6rem, 8vw, 2rem) !important; }
+  .gy-hero__desc{ font-size: 13.5px !important; }
+  .gy-hero__eyebrow{ font-size: 10px !important; padding: 5px 14px !important; letter-spacing: 1.8px !important; }
+  .gy-search__form button{ padding: 10px 18px !important; }
+  .bhet-hero{ padding: 52px 0 48px !important; }
+  .bhet-hero h1{ font-size: 1.75rem !important; }
+  .bhet-hero p{ font-size: 13.5px !important; }
+  .seva-types__title{ font-size: 1.5rem !important; }
+  .seva-types__subtitle{ font-size: 13.5px !important; }
+  .bhet-intro__title{ font-size: 1.35rem !important; }
+  .bhet-intro__desc{ font-size: 13.5px !important; }
+  .site-footer{ padding: 52px 0 0 !important; margin-top: 64px !important; }
+  .footer-col > p{ font-size: 12.5px !important; margin-bottom: 16px !important; }
+  .footer-col h4{ font-size: 10.5px !important; letter-spacing: 1.6px !important; margin-bottom: 14px !important; }
+  .footer-col ul a{ font-size: 12.5px !important; }
+  .footer-brand{ margin-bottom: 16px !important; }
+  .footer-logo{ height: 52px !important; max-width: 190px !important; transform: scale(1.03) !important; }
+  input, select, textarea{ font-size: 16px !important; max-width: 100% !important; }
+  .form-group input, .form-group select, .form-group textarea{ padding: 13px 16px !important; font-size: 15px !important; }
+  .search-field input{ font-size: 15px !important; }
+  .gy-search__form input{ font-size: 15px !important; }
+  .nl-row input{ font-size: 15px !important; }
+  .hide-mobile{ display: none !important; }
+  ::-webkit-scrollbar{ width: 6px !important; height: 6px !important; }
+  ::-webkit-scrollbar-thumb{ border-width: 2px !important; }
+}
+@media (min-width: 641px){
+  .show-mobile{ display: none !important; }
+}
+
+/* ============================================================
+   6. SMALL MOBILE — max-width: 480px
+   ============================================================ */
+@media (max-width: 480px){
+  .container{ padding: 0 16px !important; }
+  .hero h1{ font-size: 1.55rem !important; }
+  .hero-pill{ font-size: 11px !important; padding: 7px 14px 7px 7px !important; }
+  .hero-pill .avatars i{ width: 20px !important; height: 20px !important; font-size: 8.5px !important; }
+  .hero-collage{ grid-template-rows: 180px !important; }
+  .section{ padding: 44px 0 !important; }
+  .section-head h2{ font-size: 1.35rem !important; }
+  .section-head p{ font-size: 13.5px !important; }
+  .btn{ padding: 12px 22px !important; font-size: 13px !important; }
+  .btn-sm{ padding: 9px 16px !important; font-size: 12px !important; }
+  .newsletter h2{ font-size: 1.25rem !important; }
+  .footer-bottom{ padding: 20px 0 22px !important; }
+  .footer-bottom p{ font-size: 11.5px !important; }
+  .faq-q{ font-size: 14.5px !important; padding: 18px 2px !important; }
+  .faq-q .chev{ width: 28px !important; height: 28px !important; }
+  .gy-chip, .bhet-chip{ padding: 7px 14px !important; font-size: 12px !important; }
+}
+
+/* ============================================================
+   7. VERY SMALL MOBILE — max-width: 390px
+   ============================================================ */
+@media (max-width: 390px){
+  .container{ padding: 0 14px !important; }
+  .hero{ padding: 32px 0 44px !important; }
+  .hero h1{ font-size: 1.45rem !important; letter-spacing: -.4px !important; }
+  .hero-lead{ font-size: 13.5px !important; }
+  .section{ padding: 40px 0 !important; }
+  .section-head h2{ font-size: 1.25rem !important; }
+  .btn{ padding: 11px 20px !important; font-size: 12.5px !important; }
+  .temple-card{ flex: 0 0 92% !important; }
+  .shop-card{ flex: 0 0 92% !important; }
+  .fab{ width: 42px !important; height: 42px !important; }
+  .fab svg{ width: 17px !important; height: 17px !important; }
+  .step-num{ width: 54px !important; height: 54px !important; font-size: 16px !important; }
+  .footer-logo{ height: 46px !important; max-width: 170px !important; transform: scale(1.02) !important; }
+}
+
+/* ============================================================
+   8. EXTRA SMALL — max-width: 360px
+   ============================================================ */
+@media (max-width: 360px){
+  .container{ padding: 0 12px !important; }
+  .hero h1{ font-size: 1.35rem !important; }
+  .hero-lead{ font-size: 13px !important; }
+  .hero-pill{ font-size: 10.5px !important; }
+  .section{ padding: 36px 0 !important; }
+  .section-head h2{ font-size: 1.15rem !important; }
+  .section-head p{ font-size: 13px !important; }
+  .btn{ padding: 10px 18px !important; font-size: 12px !important; }
+  .btn-sm{ padding: 8px 14px !important; font-size: 11.5px !important; }
+  .temple-card{ flex: 0 0 94% !important; }
+  .shop-card{ flex: 0 0 94% !important; }
+}
+
+/* ============================================================
+   9. TINY — max-width: 320px
+   ============================================================ */
+@media (max-width: 320px){
+  .container{ padding: 0 10px !important; }
+  .hero h1{ font-size: 1.25rem !important; }
+  .hero-lead{ font-size: 12.5px !important; line-height: 1.7 !important; }
+  .section{ padding: 32px 0 !important; }
+  .section-head h2{ font-size: 1.1rem !important; }
+  .btn{ padding: 10px 16px !important; font-size: 11.5px !important; gap: 6px !important; }
+  .temple-card{ flex: 0 0 96% !important; }
+  .shop-card{ flex: 0 0 96% !important; }
+  .float-stack{ right: 12px !important; bottom: 12px !important; }
+  .fab{ width: 40px !important; height: 40px !important; }
+  .fab svg{ width: 16px !important; height: 16px !important; }
+}
+
+/* ============================================================
+   10. LANDSCAPE MOBILE
+   ============================================================ */
+@media (max-width: 900px) and (orientation: landscape) and (max-height: 480px){
+  .hero{ padding: 32px 0 40px !important; }
+  .hero-collage{ max-height: 320px !important; }
+  .section{ padding: 40px 0 !important; }
+  .mobile-nav .mn-panel{ width: min(420px, 80vw) !important; }
+}
+
+/* ============================================================
+   11. REDUCED MOTION — Accessibility
+   ============================================================ */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
