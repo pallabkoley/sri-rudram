@@ -36,7 +36,12 @@
   <li>Reviews, Coupons, Subscribers and Reports</li>
 </ul>
 
-<h2>📸 Project Screenshots</h2>
+
+<h2 align="center">🖥️ Platform Preview</h2>
+<p align="center">
+  <i>A glimpse into the Sri Rudram platform</i>
+</p>
+
 
 <table>
   <tr>
