@@ -2,113 +2,115 @@
 <h1 align="center">🕉️ Sri Rudram</h1>
 
 <p align="center">
-  <strong>Spiritual E-Commerce & Online Puja Booking Platform</strong>
+  <b>Spiritual Services & E-commerce Platform</b><br>
+  Pooja Booking, Devotional Content & Siddha Store
 </p>
 
-<p align="center">
-  A digital platform for puja booking, temple darshan, prasad services, spiritual knowledge, and Siddha Store shopping.
-</p>
+<hr>
 
-<h2>🌟 Project Overview</h2>
+<h2>📖 About Project</h2>
 
 <p>
-  Sri Rudram is a PHP and MySQL-based spiritual platform that connects devotees with temples, puja services, devotional content, and spiritual products through a website and administration panel.
+  Sri Rudram is a web-based spiritual platform that combines Pooja booking,
+  temple management, devotional content, and online shopping through Siddha Store.
+  It includes a frontend website and an admin panel for managing platform activities.
 </p>
 
-<h2>✨ Website Features</h2>
+<h2>✨ Key Features</h2>
 
+<h3>🌐 Frontend</h3>
 <ul>
-  <li>Online Puja Booking</li>
-  <li>Temple Information and Darshan</li>
-  <li>Bhet and Prasad Management</li>
-  <li>Siddha Store and Product Shopping</li>
-  <li>Shopping Cart, Wishlist, and Order Tracking</li>
-  <li>Panchang and Rashifal</li>
-  <li>Gyan, Articles, and Festival Information</li>
-  <li>User Registration, Login, and Account Management</li>
-  <li>Search, Contact, and Newsletter</li>
+  <li>Home Page and Temple Information</li>
+  <li>Pooja Booking</li>
+  <li>Siddha Store and Spiritual Products</li>
+  <li>Devotional Content, Gyan and Festivals</li>
 </ul>
 
-<h2>🔐 Admin Panel Features</h2>
-
+<h3>🔐 Admin Panel</h3>
 <ul>
-  <li><strong>Dashboard:</strong> Booking statistics, order trends, popular temples, and recent activity.</li>
-  <li><strong>Temple Management:</strong> Create, edit, delete, and manage temple listings.</li>
-  <li><strong>Puja Management:</strong> Manage puja services and offerings.</li>
-  <li><strong>Bhet Management:</strong> Manage devotional offerings.</li>
-  <li><strong>Booking Management:</strong> View bookings, update statuses, manage prasad tracking, and export records.</li>
-  <li><strong>Product Management:</strong> Manage products, categories, stock, and availability.</li>
-  <li><strong>Order Management:</strong> View orders, update statuses, manage tracking, and access invoices.</li>
-  <li><strong>Content Management:</strong> Manage articles, festivals, Gyan, FAQs, and testimonials.</li>
-  <li><strong>User Management:</strong> Manage user accounts and account status.</li>
-  <li><strong>Subscriber Management:</strong> View and export newsletter subscribers.</li>
-  <li><strong>Reports:</strong> Booking, devotee, product, order, and sales reports.</li>
-  <li><strong>Settings:</strong> Website, email, payment, and shipping configuration.</li>
-</ul>
-
-<h2>🛠️ Technology Stack</h2>
-
-<ul>
-  <li>PHP</li>
-  <li>MySQL</li>
-  <li>HTML5 and CSS3</li>
-  <li>JavaScript</li>
-  <li>Chart.js</li>
-  <li>Git and GitHub</li>
+  <li>Dashboard</li>
+  <li>Temple, Pooja and Bhet Management</li>
+  <li>Booking and Order Management</li>
+  <li>Product and User Management</li>
+  <li>Articles, Gyan, Festivals and FAQs</li>
+  <li>Reviews, Coupons, Subscribers and Reports</li>
 </ul>
 
 <h2>📸 Project Screenshots</h2>
 
-<h3>🏠 Website Homepage</h3>
-<p align="center">
-  <img src="screenshots/Home%20page.png" alt="Sri Rudram Homepage" width="100%">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Home Page</b><br><br>
+      <img src="screenshots/Home%20page.png" width="100%" alt="Home Page">
+    </td>
+    <td align="center" width="50%">
+      <b>Frontend Home Page</b><br><br>
+      <img src="screenshots/Froentend%20home%20page.png" width="100%" alt="Frontend Home Page">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>Admin Dashboard</b><br><br>
+      <img src="screenshots/Admin%20panel%20Dashboard.png" width="100%" alt="Admin Dashboard">
+    </td>
+    <td align="center" width="50%">
+      <b>Admin Orders</b><br><br>
+      <img src="screenshots/Admin%20order.png" width="100%" alt="Admin Orders">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>Pooja Booking</b><br><br>
+      <img src="screenshots/pooja%20booking.png" width="100%" alt="Pooja Booking">
+    </td>
+    <td align="center" width="50%">
+      <b>Siddha Store</b><br><br>
+      <img src="screenshots/Siddha%20Store.png" width="100%" alt="Siddha Store">
+    </td>
+  </tr>
+</table>
+
+<h2>🛠️ Technology Stack</h2>
+
+<p>
+  <b>Backend:</b> PHP<br>
+  <b>Database:</b> MySQL<br>
+  <b>Frontend:</b> HTML, CSS, JavaScript<br>
+  <b>Development:</b> XAMPP, Git and GitHub
 </p>
 
-<h3>🌐 Frontend Home Page</h3>
-<p align="center">
-  <img src="screenshots/Froentend%20home%20page.png" alt="Sri Rudram Frontend" width="100%">
-</p>
-
-<h3>📊 Admin Dashboard</h3>
-<p align="center">
-  <img src="screenshots/Admin%20panel%20Dashboard.png" alt="Admin Dashboard" width="100%">
-</p>
-
-<h3>📦 Admin Order Management</h3>
-<p align="center">
-  <img src="screenshots/Admin%20order.png" alt="Admin Order Management" width="100%">
-</p>
-
-<h3>🙏 Puja Booking</h3>
-<p align="center">
-  <img src="screenshots/pooja%20booking.png" alt="Puja Booking" width="100%">
-</p>
-
-<h3>🛍️ Siddha Store</h3>
-<p align="center">
-  <img src="screenshots/Siddha%20Store.png" alt="Siddha Store" width="100%">
-</p>
-
-<h2>🚀 Local Setup</h2>
+<h2>⚙️ Installation</h2>
 
 <ol>
-  <li>Install XAMPP with Apache, PHP, and MySQL.</li>
-  <li>Clone this repository into your local environment.</li>
-  <li>Create a MySQL database.</li>
-  <li>Import the database schema and required seed data.</li>
-  <li>Configure the database connection using your local credentials.</li>
-  <li>Start Apache and MySQL, then open the project in your browser.</li>
+  <li>Clone the repository.</li>
+</ol>
+
+<pre><code>git clone https://github.com/pallabkoley/sri-rudram.git</code></pre>
+
+<ol start="2">
+  <li>Place the project inside the XAMPP htdocs folder.</li>
+  <li>Start Apache and MySQL.</li>
+  <li>Create the database and import the provided SQL file, if available.</li>
+  <li>Update the database credentials in the project configuration.</li>
+  <li>Open the project through localhost in your browser.</li>
 </ol>
 
 <h2>🔒 Security</h2>
 
 <ul>
-  <li>Do not commit database credentials, API keys, or private configuration.</li>
-  <li>Keep sensitive logs and production secrets out of the public repository.</li>
+  <li>Validate user inputs.</li>
+  <li>Use secure database queries and password hashing.</li>
+  <li>Restrict admin access and protect credentials.</li>
 </ul>
 
 <h2>📄 License</h2>
 
-<p>
-  No license has been specified yet.
+<p>No license has been specified for this repository.</p>
+
+<hr>
+
+<p align="center">
+  <b>🕉️ Sri Rudram</b><br>
+  Spiritual Services and Shopping in One Platform
 </p>
