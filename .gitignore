@@ -1,0 +1,26 @@
+# Environment / credentials
+.env
+.env.example
+config/config.php
+config/db.php
+config/mail.php
+
+# Logs
+error_log
+storage/logs/*.log
+admin/includes/error_log
+admin/modules/temples/error_log
+
+# Cache
+cache/panchang/*.json
+
+# Backups / archives
+*.zip
+
+# OS
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
